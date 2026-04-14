@@ -1,5 +1,5 @@
 from local_search.simulated_annealing import SimulatedAnnealing, Scheduler
-from problems.ChessQueens.chessQueens import ChessQueensProblem
+from problems.chessQueens.chessQueens import ChessQueensProblem
 import random
 
 if __name__ == "__main__":

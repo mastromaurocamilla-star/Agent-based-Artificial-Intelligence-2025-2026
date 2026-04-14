@@ -1,5 +1,5 @@
 from local_search.hill_climbing import HillClimbing
-from problems.ChessQueens.chessQueens import ChessQueensProblem
+from problems.chessQueens.chessQueens import ChessQueensProblem
 import random
 
 if __name__ == "__main__":
@@ -10,7 +10,6 @@ if __name__ == "__main__":
     best_score = -1000000
     accepted_score = 0
     problem = ChessQueensProblem(8)
-
 
     for run in range(runs):
         random.seed = 42+run
